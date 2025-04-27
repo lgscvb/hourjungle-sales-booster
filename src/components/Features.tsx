@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Check, Clock, MessageCircle } from "lucide-react";
+import { Check, Clock, MessageCircle, Phone } from "lucide-react";
 
 const Features: React.FC = () => {
   return (

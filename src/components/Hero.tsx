@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { Phone, MessageSquare } from "lucide-react";
+import { Phone, MessageCircle as MessageSquare } from "lucide-react";
 
 const Hero: React.FC = () => {
   return (

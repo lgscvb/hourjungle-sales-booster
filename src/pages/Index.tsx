@@ -11,6 +11,14 @@ import ContactCTA from "@/components/ContactCTA";
 import Footer from "@/components/Footer";
 import { Phone } from "lucide-react";
 
+// Declare gtag for TypeScript
+declare global {
+  interface Window {
+    dataLayer: any[];
+    gtag: (...args: any[]) => void;
+  }
+}
+
 const Index = () => {
   // Google Analytics initialization
   useEffect(() => {
@@ -22,7 +30,7 @@ const Index = () => {
 
     script.onload = () => {
       window.dataLayer = window.dataLayer || [];
-      function gtag() {
+      function gtag(...args: any[]) {
         window.dataLayer.push(arguments);
       }
       gtag('js', new Date());
