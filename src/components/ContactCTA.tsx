@@ -161,7 +161,7 @@ const ContactCTA = () => {
           <div className="flex-1">
             <div className="h-full rounded-lg overflow-hidden border border-gray-200">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.6695773085554!2d120.63399731536486!3d24.16357117858271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693d9650422ae1%3A0x243511a677ccab58!2zNDA33OaXl-S4reW4guilvuWxseeVo-W4gualreaUv-S6pTIzOOiZnw!5e0!3m2!1szh-TW!2stw!4v1614086018101!5m2!1szh-TW!2stw"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.3436752685643!2d120.6641506!3d24.1548276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693db243260729%3A0x9d9cc32e1bbd1a7f!2s403%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%A4%A7%E5%BF%A0%E5%8D%97%E8%A1%9755%E8%99%9F7F-5!5e0!3m2!1szh-TW!2stw!4v1714523202360!5m2!1szh-TW!2stw"
                 width="100%" 
                 height="450" 
                 style={{ border: 0 }} 
