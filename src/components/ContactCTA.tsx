@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Phone, MessageCircle, Clock, MapPin } from "lucide-react";
 
@@ -72,12 +71,12 @@ const ContactCTA = () => {
                   <div>
                     <p className="font-medium">地址</p>
                     <a 
-                      href="https://maps.app.goo.gl/eLCwtZNsrmzLdj3MA" 
+                      href="https://maps.app.goo.gl/dsx33vTuUBAy4YUx9" 
                       target="_blank"
                       rel="noopener noreferrer" 
                       className="hover:text-brand-purple hover:underline"
                     >
-                      台中市西屯區市政北二路238號
+                      403台中市西區大忠南街55號7F-5
                     </a>
                   </div>
                 </div>

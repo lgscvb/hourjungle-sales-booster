@@ -1,4 +1,3 @@
-
 import React from "react";
 import { MessageCircle, Phone } from "lucide-react";
 
@@ -70,7 +69,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">聯絡資訊</h4>
             <address className="not-italic text-gray-300 space-y-2">
-              <p>台中市西屯區市政北二路238號</p>
+              <p>403台中市西區大忠南街55號7F-5</p>
               <p>
                 <a 
                   href="tel:0423760282" 
