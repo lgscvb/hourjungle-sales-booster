@@ -61,7 +61,7 @@ const Index = () => {
       <div className="fixed bottom-4 right-4 md:hidden z-50">
         <a 
           href="tel:0423760282"
-          className="bg-brand-purple hover:bg-brand-dark-purple text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg"
+          className="bg-brand-blue hover:bg-brand-dark-blue text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg"
           onClick={() => {
             if (typeof window !== 'undefined' && window.gtag) {
               window.gtag('event', 'click', { 

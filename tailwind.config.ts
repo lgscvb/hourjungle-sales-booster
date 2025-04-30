@@ -63,14 +63,14 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Brand colors
+				// Brand colors updated to match hourjungle.com
 				brand: {
-					blue: '#1c64f2',
-					'dark-blue': '#1a56db',
-					'light-blue': '#e1effe',
-					gray: '#4b5563',
+					blue: '#0076CE', // Primary blue from hourjungle.com
+					'dark-blue': '#005B9E',
+					'light-blue': '#E1F0FF',
+					gray: '#4B5563',
 					'dark-gray': '#374151',
-					'light-gray': '#f9fafb',
+					'light-gray': '#F9FAFB',
 				},
 			},
 			borderRadius: {
