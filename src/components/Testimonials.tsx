@@ -47,8 +47,8 @@ const renderStars = (rating: number) => {
 
 const Testimonials: React.FC = () => {
   return (
-    <section id="testimonials" className="py-16 bg-white">
-      <div className="container mx-auto px-4">
+    <section id="testimonials" className="py-16 bg-secondary">
+      <div className="container-custom">
         <h2 className="section-title">客戶評價</h2>
         <p className="section-subtitle">
           看看我們的客戶如何評價我們的服務
@@ -65,7 +65,7 @@ const Testimonials: React.FC = () => {
               {testimonials.map((testimonial, index) => (
                 <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
                   <div className="p-1">
-                    <Card className="p-6 h-full flex flex-col">
+                    <Card className="p-6 h-full flex flex-col border border-gray-200 shadow-sm">
                       <div className="flex mb-3">
                         {renderStars(testimonial.rating)}
                       </div>

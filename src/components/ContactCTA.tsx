@@ -1,10 +1,11 @@
+
 import React from "react";
 import { Phone, MessageCircle, Clock, MapPin } from "lucide-react";
 
 const ContactCTA = () => {
   return (
     <section id="contact" className="py-16 bg-white">
-      <div className="container mx-auto px-4">
+      <div className="container-custom">
         <h2 className="section-title">立即聯繫我們</h2>
         <p className="section-subtitle">
           讓我們的專業團隊為您提供營業登記服務，解決您的創業難題
@@ -12,19 +13,19 @@ const ContactCTA = () => {
 
         <div className="flex flex-col lg:flex-row gap-8 mt-12">
           <div className="flex-1 space-y-6">
-            <div className="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-100">
-              <h3 className="text-xl font-bold mb-6 text-center">聯絡資訊</h3>
+            <div className="bg-secondary p-8 rounded-md shadow-sm border border-gray-200">
+              <h3 className="text-xl font-bold mb-6 text-center text-gray-800">聯絡資訊</h3>
               
-              <div className="space-y-4">
-                <div className="flex items-center gap-3">
-                  <div className="bg-brand-light-purple p-2 rounded-full">
-                    <Phone className="text-brand-purple" size={20} />
+              <div className="space-y-6">
+                <div className="flex items-center gap-4">
+                  <div className="bg-primary/10 p-3 rounded-full">
+                    <Phone className="text-primary" size={20} />
                   </div>
                   <div>
                     <p className="font-medium">電話</p>
                     <a 
                       href="tel:0423760282" 
-                      className="text-brand-purple hover:underline"
+                      className="text-primary hover:underline"
                       onClick={() => {
                         if (typeof window !== 'undefined' && window.gtag) {
                           window.gtag('event', 'click', { 
@@ -39,9 +40,9 @@ const ContactCTA = () => {
                   </div>
                 </div>
 
-                <div className="flex items-center gap-3">
-                  <div className="bg-brand-light-purple p-2 rounded-full">
-                    <MessageCircle className="text-brand-purple" size={20} />
+                <div className="flex items-center gap-4">
+                  <div className="bg-green-100 p-3 rounded-full">
+                    <MessageCircle className="text-green-600" size={20} />
                   </div>
                   <div>
                     <p className="font-medium">LINE</p>
@@ -64,9 +65,9 @@ const ContactCTA = () => {
                   </div>
                 </div>
 
-                <div className="flex items-center gap-3">
-                  <div className="bg-brand-light-purple p-2 rounded-full">
-                    <MapPin className="text-brand-purple" size={20} />
+                <div className="flex items-center gap-4">
+                  <div className="bg-primary/10 p-3 rounded-full">
+                    <MapPin className="text-primary" size={20} />
                   </div>
                   <div>
                     <p className="font-medium">地址</p>
@@ -74,16 +75,16 @@ const ContactCTA = () => {
                       href="https://maps.app.goo.gl/dsx33vTuUBAy4YUx9" 
                       target="_blank"
                       rel="noopener noreferrer" 
-                      className="hover:text-brand-purple hover:underline"
+                      className="hover:text-primary hover:underline"
                     >
                       403台中市西區大忠南街55號7F-5
                     </a>
                   </div>
                 </div>
 
-                <div className="flex items-center gap-3">
-                  <div className="bg-brand-light-purple p-2 rounded-full">
-                    <Clock className="text-brand-purple" size={20} />
+                <div className="flex items-center gap-4">
+                  <div className="bg-primary/10 p-3 rounded-full">
+                    <Clock className="text-primary" size={20} />
                   </div>
                   <div>
                     <p className="font-medium">營業時間</p>
@@ -131,7 +132,7 @@ const ContactCTA = () => {
               </div>
             </div>
             
-            <div className="bg-brand-light-purple p-6 rounded-lg border border-brand-purple/20">
+            <div className="bg-primary/5 p-8 rounded-md border border-primary/20 shadow-sm">
               <h3 className="text-xl font-bold mb-4 text-center">把握優惠</h3>
               <p className="text-center mb-6">
                 五月底前簽約即可享受：免費青創貸款計劃書撰寫協助，以及最高 10 萬補助申請！
@@ -159,7 +160,7 @@ const ContactCTA = () => {
           </div>
 
           <div className="flex-1">
-            <div className="h-full rounded-lg overflow-hidden border border-gray-200">
+            <div className="h-full rounded-md overflow-hidden border border-gray-200 shadow-sm">
               <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.3436752685643!2d120.6641506!3d24.1548276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693db243260729%3A0x9d9cc32e1bbd1a7f!2s403%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%A4%A7%E5%BF%A0%E5%8D%97%E8%A1%9755%E8%99%9F7F-5!5e0!3m2!1szh-TW!2stw!4v1714523202360!5m2!1szh-TW!2stw"
                 width="100%" 

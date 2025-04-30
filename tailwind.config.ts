@@ -63,14 +63,14 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom brand colors
+				// Brand colors
 				brand: {
-					purple: '#9b87f5',
-					'dark-purple': '#7E69AB',
-					'darker-purple': '#6E59A5',
-					'light-purple': '#E5DEFF',
-					blue: '#33C3F0',
-					'dark-blue': '#1EAEDB',
+					blue: '#1c64f2',
+					'dark-blue': '#1a56db',
+					'light-blue': '#e1effe',
+					gray: '#4b5563',
+					'dark-gray': '#374151',
+					'light-gray': '#f9fafb',
 				},
 			},
 			borderRadius: {

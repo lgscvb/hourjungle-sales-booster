@@ -5,21 +5,21 @@ import { Phone } from "lucide-react";
 
 const Navbar: React.FC = () => {
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-sm py-4">
-      <div className="container mx-auto flex items-center justify-between">
+    <header className="sticky top-0 z-50 bg-white shadow-sm py-3">
+      <div className="container-custom flex items-center justify-between">
         <div className="flex items-center">
           <a href="https://www.hourjungle.com/" target="_blank" rel="noopener noreferrer">
-            <h1 className="text-xl font-bold text-brand-purple">
-              Hour<span className="text-brand-blue">Jungle</span>
+            <h1 className="text-xl font-bold text-primary">
+              Hour<span className="text-primary/70">Jungle</span>
             </h1>
           </a>
         </div>
         
         <nav className="hidden md:flex gap-6 items-center">
-          <a href="#features" className="text-gray-700 hover:text-brand-purple transition-colors">服務特色</a>
-          <a href="#pricing" className="text-gray-700 hover:text-brand-purple transition-colors">方案比較</a>
-          <a href="#testimonials" className="text-gray-700 hover:text-brand-purple transition-colors">客戶評價</a>
-          <a href="#faq" className="text-gray-700 hover:text-brand-purple transition-colors">常見問題</a>
+          <a href="#features" className="text-gray-700 hover:text-primary transition-colors">服務特色</a>
+          <a href="#pricing" className="text-gray-700 hover:text-primary transition-colors">方案比較</a>
+          <a href="#testimonials" className="text-gray-700 hover:text-primary transition-colors">客戶評價</a>
+          <a href="#faq" className="text-gray-700 hover:text-primary transition-colors">常見問題</a>
         </nav>
         
         <div className="flex items-center gap-2">

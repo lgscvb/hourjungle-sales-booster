@@ -34,7 +34,7 @@ const CountdownBanner: React.FC = () => {
   }, []);
 
   return (
-    <div className="bg-gradient-to-r from-brand-purple to-brand-blue text-white py-3 animate-pulse-slow">
+    <div className="bg-gradient-to-r from-primary to-primary/80 text-white py-3 animate-pulse-slow">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-center text-center gap-2 md:gap-4">
           <span className="font-semibold text-lg">限時優惠！五月底前簽約：</span>
@@ -43,28 +43,28 @@ const CountdownBanner: React.FC = () => {
           </span>
           <div className="flex items-center gap-1 font-mono">
             <div className="flex flex-col items-center">
-              <span className="bg-white text-brand-purple px-2 py-1 rounded-md text-sm md:text-base font-bold">
+              <span className="bg-white text-primary px-2 py-1 rounded-md text-sm md:text-base font-bold">
                 {timeLeft.days.toString().padStart(2, "0")}
               </span>
               <span className="text-xs mt-1">天</span>
             </div>
             :
             <div className="flex flex-col items-center">
-              <span className="bg-white text-brand-purple px-2 py-1 rounded-md text-sm md:text-base font-bold">
+              <span className="bg-white text-primary px-2 py-1 rounded-md text-sm md:text-base font-bold">
                 {timeLeft.hours.toString().padStart(2, "0")}
               </span>
               <span className="text-xs mt-1">時</span>
             </div>
             :
             <div className="flex flex-col items-center">
-              <span className="bg-white text-brand-purple px-2 py-1 rounded-md text-sm md:text-base font-bold">
+              <span className="bg-white text-primary px-2 py-1 rounded-md text-sm md:text-base font-bold">
                 {timeLeft.minutes.toString().padStart(2, "0")}
               </span>
               <span className="text-xs mt-1">分</span>
             </div>
             :
             <div className="flex flex-col items-center">
-              <span className="bg-white text-brand-purple px-2 py-1 rounded-md text-sm md:text-base font-bold">
+              <span className="bg-white text-primary px-2 py-1 rounded-md text-sm md:text-base font-bold">
                 {timeLeft.seconds.toString().padStart(2, "0")}
               </span>
               <span className="text-xs mt-1">秒</span>

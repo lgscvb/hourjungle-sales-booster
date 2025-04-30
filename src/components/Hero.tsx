@@ -1,18 +1,19 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Phone, MessageCircle as MessageSquare } from "lucide-react";
 
 const Hero: React.FC = () => {
   return (
-    <div className="bg-gradient-to-b from-accent to-white">
-      <div className="container mx-auto px-4 py-16 md:py-24">
+    <div className="bg-gradient-to-b from-secondary to-white py-16 md:py-24">
+      <div className="container-custom">
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="flex-1 space-y-6">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-800">
               營業登記 
-              <span className="text-brand-purple">專業規劃</span>
+              <span className="text-primary">專業規劃</span>
               <br />
-              <span className="text-brand-blue">省時又省錢</span>
+              <span className="text-primary/80">省時又省錢</span>
             </h1>
             
             <p className="text-xl text-gray-600 max-w-lg">
@@ -64,25 +65,25 @@ const Hero: React.FC = () => {
           
           <div className="flex-1 flex justify-center">
             <div className="relative">
-              <div className="absolute -inset-1 bg-gradient-to-r from-brand-purple to-brand-blue rounded-lg blur opacity-30"></div>
-              <div className="bg-white p-6 rounded-lg shadow-xl relative">
-                <h3 className="text-xl font-bold text-center mb-4 text-brand-purple">為什麼選擇我們？</h3>
+              <div className="absolute -inset-1 bg-gradient-to-r from-primary/30 to-primary/20 rounded-lg blur opacity-30"></div>
+              <div className="bg-white p-6 rounded-md shadow-xl relative">
+                <h3 className="text-xl font-bold text-center mb-4 text-primary">為什麼選擇我們？</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <span className="inline-flex items-center justify-center h-5 w-5 rounded-full bg-brand-purple text-white text-sm mr-2">✓</span>
-                    <span>全台灣唯一提供<strong className="text-brand-purple">全額退款保證</strong>的營業登記服務</span>
+                    <span className="inline-flex items-center justify-center h-5 w-5 rounded-full bg-primary text-white text-sm mr-2">✓</span>
+                    <span>全台灣唯一提供<strong className="text-primary">全額退款保證</strong>的營業登記服務</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="inline-flex items-center justify-center h-5 w-5 rounded-full bg-brand-purple text-white text-sm mr-2">✓</span>
-                    <span>專業<strong className="text-brand-purple">會計師、律師團隊</strong>顧問諮詢</span>
+                    <span className="inline-flex items-center justify-center h-5 w-5 rounded-full bg-primary text-white text-sm mr-2">✓</span>
+                    <span>專業<strong className="text-primary">會計師、律師團隊</strong>顧問諮詢</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="inline-flex items-center justify-center h-5 w-5 rounded-full bg-brand-purple text-white text-sm mr-2">✓</span>
-                    <span>超過<strong className="text-brand-purple">百家蝦皮店家</strong>登記指定選擇</span>
+                    <span className="inline-flex items-center justify-center h-5 w-5 rounded-full bg-primary text-white text-sm mr-2">✓</span>
+                    <span>超過<strong className="text-primary">百家蝦皮店家</strong>登記指定選擇</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="inline-flex items-center justify-center h-5 w-5 rounded-full bg-brand-purple text-white text-sm mr-2">✓</span>
-                    <span><strong className="text-brand-purple">國際知名企業</strong>阿里巴巴、UBER等指定合作</span>
+                    <span className="inline-flex items-center justify-center h-5 w-5 rounded-full bg-primary text-white text-sm mr-2">✓</span>
+                    <span><strong className="text-primary">國際知名企業</strong>阿里巴巴、UBER等指定合作</span>
                   </li>
                 </ul>
               </div>

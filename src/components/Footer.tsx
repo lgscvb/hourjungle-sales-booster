@@ -1,10 +1,11 @@
+
 import React from "react";
 import { MessageCircle, Phone } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-12">
-      <div className="container mx-auto px-4">
+    <footer className="bg-gray-800 text-white py-12">
+      <div className="container-custom">
         <div className="flex flex-col md:flex-row justify-between mb-8 gap-8">
           <div className="md:w-1/3">
             <h3 className="text-xl font-bold mb-4">HourJungle</h3>
@@ -38,7 +39,7 @@ const Footer = () => {
                     });
                   }
                 }}
-                className="text-brand-blue hover:text-brand-dark-blue transition-colors"
+                className="text-blue-400 hover:text-blue-300 transition-colors"
               >
                 <Phone size={18} />
               </a>
@@ -96,7 +97,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="pt-8 border-t border-gray-800 text-center text-gray-400 text-sm">
+        <div className="pt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
           <p>© {new Date().getFullYear()} HourJungle. 保留所有權利。</p>
           <p className="mt-2">
             <a href="https://www.hourjungle.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
